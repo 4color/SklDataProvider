@@ -6,7 +6,7 @@ C# 开发的一款数据工厂
 
 # 调用方式
 
-{ {{ SklDataSource xdataSource = DataSourceFactory.CreateInstance(连接字段串, 数据库类型); }} }
+> SklDataSource xdataSource = DataSourceFactory.CreateInstance(连接字段串, 数据库类型); 
 
 
 
