@@ -58,7 +58,7 @@ namespace SklDataProvider
         public override void CommitTransaction()
         {
             this._transaction.Commit();
-            //hyf 2005-10-11 add
+            //4color 2005-10-11 add
             this._transaction = null;
             //
 
@@ -67,7 +67,7 @@ namespace SklDataProvider
         public override void RollBackTransaction()
         {
             this._transaction.Rollback();
-            //hyf 2005-10-11 add
+            //4color 2005-10-11 add
             this._transaction = null;
             //
         }
@@ -125,7 +125,7 @@ namespace SklDataProvider
             SqlCommand cmd = new SqlCommand();
             this.PrepareCommand(cmd, this._connection, this._transaction, cmdType, commandText, commandParameters);
 
-            //hyf 2005-10-11 delete
+            //4color 2005-10-11 delete
             //cmd.Parameters.Clear();
             //
             return cmd.ExecuteNonQuery();
@@ -229,7 +229,7 @@ namespace SklDataProvider
                         dataAdapter.DeleteCommand.Transaction = this._transaction;
                     }
                 }
-                //END add by wusl 2008-12-08
+                //END add by 4color 2008-12-08
                 dataAdapter.Update(dataSet, tableName);
             }
         }
@@ -257,7 +257,7 @@ namespace SklDataProvider
         #endregion
         /// <summary>
         /// 根据表名称获取表字段定义信息
-        /// add by wusl 2009-2-13
+        /// add by 4color 2009-2-13
         /// </summary>
         /// <param name="tableName"></param>
         /// <returns></returns>

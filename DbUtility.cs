@@ -11,8 +11,8 @@ namespace SklDataProvider
 {
     /// <summary>
     /// 存储与数据库类型无关的方法,接口
-    /// add by wusl
-    /// 2008-09-20 11:02
+    /// Created : zhuyf
+    /// Date    : 2017-7-28
     /// </summary>
     public class DbUtility
     {

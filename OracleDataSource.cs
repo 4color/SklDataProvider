@@ -160,7 +160,7 @@ namespace SklDataProvider
 
         /// <summary>
         /// 根据表名称获取表字段定义信息
-        /// add by wusl 2009-2-13
+        /// add by 4color 2009-2-13
         /// </summary>
         /// <param name="tableName"></param>
         /// <returns></returns>

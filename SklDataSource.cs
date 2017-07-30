@@ -332,7 +332,7 @@ namespace SklDataProvider
 
         /// <summary>
         ///  根据表名称获取表字段定义信息
-        /// add by wusl 2009-2-13
+        /// add by 4color 2009-2-13
         /// </summary>
         /// <param name="tableName"></param>
         /// <returns></returns>
@@ -371,7 +371,7 @@ namespace SklDataProvider
         #region CreateNTextParameterS根据多个变量名和值,构造IDbDataParameter数组
         /// <summary>
         /// 根据多个变量名和值,构造IDbDataParameter数组
-        /// add by wusl
+        /// add by 4color
         /// date:2008-09-20
         /// </summary>
         /// <param name="paramenterContentS">字段值数组</param>
@@ -387,9 +387,9 @@ namespace SklDataProvider
 
         public abstract string getPriKeySqlString(string priKeyName);
 
-        //add'ed by sqx 20070829取得用于jet引擎的连接字符串
+        //add'ed by 4color 20070829取得用于jet引擎的连接字符串
         public abstract string getConStrForJet();
-        //add'ed by sqx
+        //add'ed by 4color
         public abstract string subStrSqlString();
         public abstract string getSubStrSql(string str, int start, int length);
 
@@ -419,7 +419,7 @@ namespace SklDataProvider
 
         /// <summary>
         /// 根据Sql 函数名称获取当前数据库匹配的SQL串
-        /// add by wusl
+        /// add by 4color
         /// </summary>
         /// <param name="functionName">数据库自定义函数名称</param>
         /// <returns></returns>
@@ -464,6 +464,11 @@ namespace SklDataProvider
 
         public abstract string TableType();
 
+
+        /// <summary>
+        /// 获取视图类型 
+        /// </summary>
+        /// <returns></returns>
         public abstract string ViewType();
 
         public abstract string ProcedureType();

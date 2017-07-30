@@ -270,7 +270,7 @@ namespace SklDataProvider
  
         /// <summary>
         /// 根据表名称获取表字段定义信息
-        /// add by wusl 2009-2-13
+        /// add by 4color 2009-2-13
         /// </summary>
         /// <param name="tableName"></param>
         /// <returns></returns>
@@ -397,7 +397,7 @@ namespace SklDataProvider
 			return null;
 		}
 
-        //add'ed by sqx
+        //add'ed by 4color
         public override string subStrSqlString()
         {
             return "substr";
